@@ -1,0 +1,32 @@
+.container {
+    max-width: 120rem;
+    min-height: 50rem;
+    background-color: var(--color-grey-light-1);
+    margin: 5rem auto;
+    color: black;
+    box-shadow: var(--shadow-dark);
+}
+
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    border-bottom: var(--color-grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+    color: var(--color-grey-light-1);
+    flex: 0 0 18%; //Make sure the sidebar is always 18% of the container width
+}
+
+.hotel-view {
+    background-color: var(--color-grey-light-3);
+    flex: 1; //Make sure this item grows the remaining width left in container
+}
